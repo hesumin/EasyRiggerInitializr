@@ -2,6 +2,7 @@ package cn.bugstack.initializr.rigger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
@@ -9,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Create by 小傅哥(fustack)
  */
 @SpringBootApplication
+@EnableScheduling
 public class RiggerApplication {
 
     public static void main(String[] args) {
